@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COPKEYT</title>
+
+       <!--link del menu -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="styles.css">
+
+<!--link del logo en la pestaña del navegador -->
+ <link rel="shortcut icon" href="img/logo de cop-mejorado.png" >
+    
+       <!--link modelo para el post-->
+
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+<!--estilos-->
+    <style>
+
+:root {
+    --container-color: aqua;
+  
+
+
+
+}
+
+::selection{
+    
+    background:var( --second-color);
+
+
+
+
+}
+
+
+
+
+.post-header{
+    width: 100%;
+    height: 500px;
+    background: var(--container-color);
+
+
+}
+
+.post-container {
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+
+
+}
+
+
+.header-content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem !important;
+
+
+
+}
+
+.back-home{
+    color:var(--second-color);
+    font-size: 0.9rem;
+}
+
+
+.header-title{
+    
+    color: var(--bg-color);
+    text-align: center;
+   
+}
+
+
+.header-img{ 
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position:center;
+
+
+}
+
+
+
+
+.sub-heading{
+    font-size: 1.2rem;
+
+
+
+}
+
+.post-text {
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+
+
+.share{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap:1rem;
+
+
+}
+
+.share-title{
+ font-size: 1.1rem;
+
+
+
+}
+
+@media (max-width:1060px){
+    .container{
+       
+        margin: 0 auto;
+        width: 95%;
+    
+    }
+
+    .home-text{
+        width: 100%;
+
+
+
+    }
+
+
+}
+
+
+@media (max-width:800px){
+.nav{
+
+
+    padding: 14px 0;
+}
+
+.post-container{
+    margin: 0 auto;
+    width: 95%;
+
+
+}
+
+
+}
+    
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <!--script facebook-->
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v19.0" nonce="HygZbSsm"></script>
+
+
+    
+    <header>
+     <!--Menu-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" style="font-size: 32px;"   href="index.html"><strong>TAIMCONOMI</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            
+              <li class="nav-item">
+                <a class="navbar-brand" style="font-size: 18px;"   href="acercade.html">Acerca de</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="navbar-brand" style="font-size: 18px;"    href="seguridadyprivacidad.html">Seguridad y privacidad</a>
+              </li>
+
+           
+             </ul>
+             
+            </div>
+            </div>
+         </nav>
+        
+        
+        
+            </header>
+
+<!--portada del artículo y párrafo-->
+    <section class="post-header">
+
+        <div class="header-content post-container">
+            <a href="entretenimiento.html" class="back-home">Regresar a entretenimiento</a>
+            <h1 style="text-align: center;"> 4 datos sobre los orígenes del cupcake </h1>
+
+            <img src="img/cupcake-articulo.jpg" alt="" class="header-img">
+
+
+        </div>
+
+
+
+    </section>
+
+
+    <section class="post-content post-container">
+        
+        <p class="post-text">Antes de preparar o comprar cupcakes,conoce los orígenes de tan rico dulce.</p>
+     
+<h2 class="sub-heading">1.Se menciona la receta en un libro de 1796</h2>
+        <p class="post-text">
+            Una estadounidense llamada Amelia Simmons que con pocos conocimientos sobre el ámbito académico y quien trabajó de ama de casa, escribió un libro llamado American Cookery, en español Cocina Americana, siendo la primera en escribir dicha obra de cocina en su país. En cada página explica la preparación de recetas como: pastas, natillas, hojaldres, budines, conservas, plomada imperial, ganso relleno, cordero asado, guisos, aderezos y pasteles.
+</p>
+<p class="post-text">También podemos ver en el texto,cómo cocinar un cupcake con tazas,en esta publicación por primera vez se lee  la realización de la sabrosa merienda,pero aún no era llamado como  en la actualidad.
+La empresa editora Hudson & Goodwin,dirigida por uno de sus socios,George Goodwin,decidieron editarla y publicarla en 1796.</p>
+<p class="post-text">Para esa fecha los  federalistas  de  Hartford,Connecticut, impulsaron la producción nacional: ropa,libros y otros productos de uso cotidiano.</p>
+<p class="post-text">Es así como el libro documenta la identidad estadounidense en los modos de preparar sus comidas y representa el número 88 de los libros más importantes de la biblioteca del congreso. 
+
+        </p>
+
+
+        <h2 class="sub-heading">2.Su nombre apareció publicado en 1828</h2>
+        <p class="post-text">Eliza Leslie redactó “Setenta y cinco recibos de pastelería, pasteles y dulces". En la lectura,los lectores pueden mirar la palabra cupcake y expresa brevemente que se puede  medir el azúcar,la harina y la leche con tazas.
+            Fue muy famosa esta escritora por indicar las maneras y estilos fáciles de trabajar en el hogar y en la cocina.
+            
+
+        </p>
+
+        <h2 class="sub-heading"> 3.Comienzan a venderlos después de la Segunda Guerra Mundial </h2>
+        <p class="post-text">
+            Las amas de casas los preparaban para consentir a sus hijos,igualmente aprovechaban de venderlos para obtener ganancias.
+            En las panaderías los comienzan a  vender.
+            
+        </p>
+
+        <h2 class="sub-heading"> 4.La serie Sexo en Nueva York y el Magnolia Bakery (finales del siglo XX e Inicio del Siglo XXI) </h2>
+        <p class="post-text">
+            En una escena del show televisivo,las dos actrices: Sarah Parker y Cynthia Nixon,estuvieron sentadas comiendo cupcakes  en las afueras de la famosa tienda.Al ser visto por los televidentes influyó a que muchos estadounidenses y extranjeros los compraran en el Magnolia Bakery,logrando que el delicioso postre fuese muy popular en Estados Unidos y en otros países.
+            Es así como el cupcake paso a ser el gran protagonista en programas de televisión dedicados a competencias entre reposteros,quienes deben de preparar los mejores y ser calificados por un jurado que los premiara.
+
+        </p>
+            
+        <h2 class="sub-heading">Ricos cupcakes en menos de una hora</h2>
+        <p class="post-text">
+            Los ingredientes que necesitaras son:</p>
+
+            <p class="post-text">
+•	Harina de trigo común todo uso en 140 gramos </p>
+<p class="post-text">
+•	Harina de trigo común todo uso en 25 gramos  </p>
+<p class="post-text">
+•	Mantequilla sin sal en 100 gramos </p>
+<p class="post-text">
+•	Cacao en polvo sin azúcar en 20 gramos</p>
+<p class="post-text">
+•	Leche en 140 mililitros</p>
+<p class="post-text">
+•	2 huevos </p>
+<p class="post-text">
+•	Azúcar blanca en 160 gramos </p>
+<p class="post-text">
+•	Una cucharadita de esencia de vainilla </p>
+<p class="post-text">
+•	1,5 cucharaditas de polvo de hornear </p>
+<p class="post-text">
+•	Un poco de sal 
+</p>
+
+<p class="post-text">Los pasos a seguir: </p>
+
+
+<p class="post-text">
+    Primero debes tener la mantequilla a temperatura ambiente, comienzas a batirla, añades el azúcar y utiliza la batidora a una velocidad media durante 5 minutos. 
+</p>
+
+<p class="post-text">
+    Ahora, bate los huevos con un tenedor. Agrega la mitad a la preparación, espera 4 minutos y echa lo que te quedo en la taza.
+</p>
+
+<p class="post-text">
+    Vainilla. Tamiza la harina de trigo con el polvo de hornear; viene la sal. Puedes seguir batiendo con una paleta a mano y luego con la batidora, lentamente. Finalizas con la leche.</p>
+
+    <p class="post-text">
+        Divide la mezcla.En una porción de vainilla agregas 25 gramos de harina y la otra de chocolate: 20 gramos de cacao en polvo. </p>
+        
+    <p class="post-text">
+
+            En el molde con que vas a hornearlos coloca los capacillos. Incorporas a tu gusto vainilla, chocolate y trozos de galleta oreo.</p>
+
+<p class="post-text">
+    Los horneas a 180 grados durante 20 minutos.
+</p>
+
+<p class="post-text">
+
+    Luego dejas que se enfríen para colocarle la crema. 
+</p>
+
+
+<h2 class="sub-heading"> Haz la crema</h2>
+
+<p class="post-text">
+    Ingredientes:
+</p>
+
+<p class="post-text">
+    •	250 gramos de mantequilla sin sal 
+    <p class="post-text">
+    •	400 gramos de leche condensada</p>
+    <p class="post-text">
+    •	Tres cucharadas de azúcar glas 
+</p>
+
+<p class="post-text">
+
+    ¿cómo hacerla?
+</p>
+
+<p class="post-text">
+    En un recipiente colocas la mantequilla, batir en 5 minutos o un poco más hasta cambiar su forma. Segundo, leche condensada, usa la batidora a velocidad alta; tercero, tres cucharadas de azúcar glas, saborea y decide si así es suficiente dulce.
+
+</p>
+
+<p class="post-text">
+    Listo, decora tu cupcake.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+ <!--Testimonios y link de Facebook-->
+
+ <section class="testimonial container">
+    
+    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="3"></div>
+
+
+</section>
+
+
+
+
+    
+
+     <!--footer-->
+<footer class="footer">
+
+    <ul class="menu">
+
+    <div class="container text-center text-md-start">
+
+        <div class="row text-center text-md-start">
+
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <li class="menu-elem">
+                    <a href="index.html" class="menu-icono">COPKEYT</a>
+                </li>
+                <hr class="mb-4">
+
+
+
+
+
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <li class="menu-elem">
+                    <a href="acercade.html" class="menu-icono">Acerca de</a>
+                </li>
+                <hr class="mb-4">
+               
+
+
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <li class="menu-elem">
+                    <a href="seguridadyprivacidad.html" class="menu-icono">Seguridad y privacidad</a>
+                </li>
+                <hr class="mb-4">
+
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <li class="menu-elem">
+                    <a href="entretenimiento.html" class="menu-icono">Entretenimiento</a>
+                </li>
+                <hr class="mb-4">
+
+
+            </ul>
+
+            </div>
+            
+
+            <div class="text-center mb-2">
+                © copyright 2024 
+                Leonardo Rodríguez
+                Todos los derechos reservados
+
+
+
+            </div>
+
+
+            <ul class="social-icon">
+                <li class="icon-elem">
+                    <a href="" class="icon">
+                        <ion-icon name="logo-youtube"></ion-icon>
+        
+                    </a>
+                </li>
+        
+                <li class="icon-elem">
+                    <a href="" class="icon">
+                        <ion-icon name="logo-instagram"></ion-icon>
+        
+                    </a>
+                </li>
+        
+                <li class="icon-elem">
+                    <a href="" class="icon">
+                        <ion-icon name="logo-twitter"></ion-icon>
+        
+                    </a>
+                </li>
+        
+               
+        </ul>
+
+</div>
+</div>
+</footer>
+
+
+
+
+  
+
+
+
+
+ 
+ <!--script del footer iconos-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+<!--Script del menu-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+ <!--Script del post-->
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+ <script src="script.js"></script>  
+</body>
+</html>
+     

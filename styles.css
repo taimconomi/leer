@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    font-family: "Bebas Neue", sans-serif;
+
+
+
+}
+
+/*codigo para el menu
+*/
+
+.bg-light{
+    background-color: transparent !important;
+
+
+
+}
+
+
+strong {
+    color: yellow;
+
+
+}
+
+
+
+
+
+
+
+
+/*estilos del footer
+*/
+  .footer{
+
+    background: #9b9b9b;
+
+
+
+}
+
+
+
+.social-icon{
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+margin: 10px 5px;
+flex-wrap: wrap;
+}
+
+
+.icon-elem{
+list-style: none;
+}
+
+.icon {
+color: black;
+font-size: 32px;
+display: inline-block;
+margin: 0 10px;
+transition: 0.5s;
+}
+
+
+.icon:hover{
+transform: translateY(-10px);
+
+
+
+}
+
+.menu {
+display: flex;
+
+
+flex-wrap: wrap;
+
+
+}
+
+.menu-elem{
+list-style: none;
+
+}
+
+.menu-icono{
+color: black;
+font-size: 15px;
+display: inline-block;
+text-decoration: none;
+
+
+transition: 0.3s;
+
+}
+
+/*estilos 
+*/
+
+
+
+
+
+
